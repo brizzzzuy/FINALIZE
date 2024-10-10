@@ -1,0 +1,234 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .background {
+            background-image: url('/images/bg.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            position: relative;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: transparent;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            width: 80%;
+        }
+        .content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .description {
+            color: white;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .content .latest-works {
+            margin-top: 20px;
+            font-size: 18px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .threemain {
+            font-family: Arial, sans-serif;
+            background-color: #fdf7f1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content_3p {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .image_3p img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 40px;
+        }
+        .details_3p h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .details_3p table {
+            width: 100%;
+        }
+        .details_3p td {
+            padding: 8px 0;
+        }
+        .label_3p {
+            font-weight: bold;
+            width: 150px;
+        }
+        .bar {
+            height: 10px;
+            background-color: #d8a47f;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .ux-research { width: 80%; background-color: #b35a3b; }
+        .ui-design { width: 70%; background-color: #b35a3b; }
+        .front-end-dev { width: 90%; background-color: #b35a3b; }
+
+        .main4 {
+            font-family: Arial, sans-serif;
+            background-color: #FFFAF4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container_4 {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .column_4 {
+            display: flex;
+            flex-direction: column;
+        }
+        .column_4 div {
+            margin-bottom: 10px;
+        }
+        .header_4 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- first page -->
+    <div class="background">
+        <div class="navbar">
+            <div class="logo">Portofolio</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- second page -->
+        <div class="content">
+            <h1>Hi, It’s Théophile Seyrig</h1>
+            <p class="description">Designer from Porto, Portugal</p>
+            <div class="latest-works">Latest works</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.</p>
+        <p>Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.</p>
+    </div>
+
+
+<!-- 3rd page -->
+
+   <div class="threemain">
+    <div class="content_3p">
+        <div class="image_3p">
+            <img src="/images/images.jpg" alt="Person standing with a cityscape in the background">
+        </div>
+        <div class="details_3p">
+            <h1>Skills</h1>
+            <table>
+                <tr><td class="label_3p">Profile</td><td>UI / UX Engineer, Front-end Developer</td></tr>
+                <tr><td class="label_3p">UX Research</td><td><div class="bar ux-research"></div></td></tr>
+                <tr><td class="label_3p">Tools</td><td>Paper, Pen, Balsamiq</td></tr>
+                <tr><td class="label_3p">UI Design</td><td><div class="bar ui-design"></div></td></tr>
+                <tr><td class="label_3p">Tools</td><td>Adobe PS, AI, XD, Figma, InVision</td></tr>
+                <tr><td class="label_3p">Front-end Dev</td><td><div class="bar front-end-dev"></div></td></tr>
+                <tr><td class="label_3p">Tools</td><td>HTML, CSS, JS, Bootstrap, React</td></tr>
+            </table>
+        </div>
+    </div>
+   </div>
+
+   <!-- 4th page -->
+   <div class="main4">
+    <div class="container_4">
+        <div class="column_4">
+            <div class="header_4">Get in Touch</div>
+            <div>Dribbble</div>
+            <div>Behance</div>
+            <div>CodePen</div>
+            <div>GitHub</div>
+            <div>Medium</div>
+        </div>
+        <div class="column_4">
+            <div>&nbsp;</div>
+            <div>LinkedIn</div>
+            <div>Facebook</div>
+            <div>Instagram</div>
+            <div>Twitter</div>
+        </div>
+        <div class="column_4">
+            <div>&nbsp;</div>
+            <div>seyrig@mailme.com</div>
+            <div>+55 6645 665544</div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
